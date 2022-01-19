@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           body: ContactUs(
             logo: const AssetImage("assets/coode.jpg"),
             email: 'emilio113kariuki@gmail.com',
-            companyName: 'Ecoville',
+            companyName: 'Emilio Kariuki',
             phoneNumber: '+254796250443',
             dividerThickness: 2,
             website: 'https://emilio-kariuki.com',
@@ -24,10 +24,10 @@ class MyApp extends StatelessWidget {
             linkedinURL: 'https://www.linkedin.com/in/emilio-kariuki',
             tagLine: 'Android Developer || Android Lead',
             twitterHandle: '@HighTech113',
-            // instagramUserName: '_emiliokariuki',
+            instagram: '_emiliokariuki',
             taglineColor: Colors.blueGrey.shade200,
             textColor: Colors.black,
-            companyColor: Colors.red,
+            companyColor: Colors.blueGrey.shade300,
             cardColor: Colors.blueGrey.shade200,
           ),
         ));
